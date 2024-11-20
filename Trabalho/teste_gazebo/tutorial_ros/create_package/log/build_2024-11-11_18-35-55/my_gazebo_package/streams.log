@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/my_gazebo_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/my_gazebo_package -- -j8 -l8
+[0.027s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.492s] -- Configuring done (0.5s)
+[0.497s] -- Generating done (0.0s)
+[0.498s] [31mCMake Error at CMakeLists.txt:22 (target_link_libraries):
+[0.498s]   Target "my_gazebo_node" links to:
+[0.498s] 
+[0.498s]     gz-transport::core
+[0.498s] 
+[0.498s]   but the target was not found.  Possible reasons include:
+[0.498s] 
+[0.498s]     * There is a typo in the target name.
+[0.498s]     * A find_package call is missing for an IMPORTED target.
+[0.498s]     * An ALIAS target is missing.
+[0.498s] 
+[0.498s] 
+[0.498s] [0m
+[0.499s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.503s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.505s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/my_gazebo_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/my_gazebo_package -- -j8 -l8

@@ -1,0 +1,15 @@
+publisher: beginning loop
+publishing #1: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+
+publishing #2: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+
+publishing #3: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+
+publishing #4: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+
+publishing #5: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+
+publishing #6: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+
+publishing #7: actuator_msgs.msg.Actuators(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), position=[], velocity=[], normalized=[])
+

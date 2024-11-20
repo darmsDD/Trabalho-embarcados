@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_publisher.cpplint"
+  tests="6"
+  failures="0"
+  errors="0"
+  time="0.108"
+>
+  <testcase
+    name="/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp"
+    classname="examples_rclcpp_minimal_publisher.cpplint"/>
+  <testcase
+    name="/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp"
+    classname="examples_rclcpp_minimal_publisher.cpplint"/>
+  <testcase
+    name="/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_type_adapter.cpp"
+    classname="examples_rclcpp_minimal_publisher.cpplint"/>
+  <testcase
+    name="/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_unique_network_flow_endpoints.cpp"
+    classname="examples_rclcpp_minimal_publisher.cpplint"/>
+  <testcase
+    name="/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_wait_for_all_acked.cpp"
+    classname="examples_rclcpp_minimal_publisher.cpplint"/>
+  <testcase
+    name="/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp"
+    classname="examples_rclcpp_minimal_publisher.cpplint"/>
+  <system-out>Checked files:
+* /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp
+* /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp
+* /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_type_adapter.cpp
+* /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_unique_network_flow_endpoints.cpp
+* /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_wait_for_all_acked.cpp
+* /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp</system-out>
+</testsuite>

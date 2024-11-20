@@ -1,0 +1,14 @@
+{
+  "package_name": "drive_base_msgs",
+  "output_dir": "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ws/build/drive_base_msgs/rosidl_generator_type_description/drive_base_msgs",
+  "idl_tuples": [
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/CommandHeader.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/BaseInfo.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/CommandStatus.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/TRVCommand.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

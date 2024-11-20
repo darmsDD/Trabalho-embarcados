@@ -1,0 +1,4 @@
+gmake[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/micro_ros_msgs__rosidl_generator_type_description.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_micro_ros_msgs] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_copy_micro_ros_msgs.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

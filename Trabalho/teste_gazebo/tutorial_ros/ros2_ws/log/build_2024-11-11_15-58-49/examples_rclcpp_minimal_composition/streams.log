@@ -1,0 +1,83 @@
+[0.018s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.151s] -- The C compiler identification is GNU 13.2.0
+[0.227s] -- The CXX compiler identification is GNU 13.2.0
+[0.250s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.381s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.529s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.733s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.893s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.960s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.980s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.033s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.151s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.156s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.265s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.293s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.439s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.499s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.525s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.694s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.694s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.694s] -- Configured cppcheck include dirs: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[1.695s] -- Configured cppcheck exclude dirs and/or files: 
+[1.695s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.695s] -- Configured cpplint exclude dirs and/or files: 
+[1.695s] -- Added test 'lint_cmake' to check CMake code style
+[1.695s] -- Added test 'uncrustify' to check C / C++ code style
+[1.695s] -- Configured uncrustify additional arguments: 
+[1.695s] -- Added test 'xmllint' to check XML markup files
+[1.700s] -- Configuring done (1.7s)
+[1.724s] -- Generating done (0.0s)
+[1.728s] -- Build files have been written to: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition
+[1.742s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition
+[1.743s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[18.157s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[18.157s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[29.659s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[31.051s] [ 33%] Built target composition_nodes
+[31.172s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[39.118s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[39.603s] [ 55%] Built target composition_publisher
+[39.667s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[50.530s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[51.015s] [ 77%] Built target composition_composed
+[51.049s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[55.816s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[55.984s] [100%] Built target composition_subscriber
+[55.994s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[56.023s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition
+[56.031s] -- Install configuration: ""
+[56.031s] -- Execute custom install script
+[56.032s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[56.040s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[56.049s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[56.058s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[56.066s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[56.074s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[56.082s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[56.090s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[56.098s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[56.106s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[56.114s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[56.123s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[56.130s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[56.138s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[56.146s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[56.154s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[56.161s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[56.169s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[56.177s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[56.185s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[56.193s] -- Symlinking: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[56.202s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_composition

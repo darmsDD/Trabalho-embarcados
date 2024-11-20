@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

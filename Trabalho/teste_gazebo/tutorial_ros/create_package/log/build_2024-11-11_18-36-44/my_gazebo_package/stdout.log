@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/my_gazebo_package
+[ 50%] [32mBuilding CXX object CMakeFiles/my_gazebo_node.dir/src/my_gazebo_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_gazebo_node[0m
+[100%] Built target my_gazebo_node
+-- Install configuration: ""
+-- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/lib/my_gazebo_package/my_gazebo_node
+-- Set non-toolchain portion of runtime path of "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/lib/my_gazebo_package/my_gazebo_node" to ""
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/ament_index/resource_index/package_run_dependencies/my_gazebo_package
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/ament_index/resource_index/parent_prefix_path/my_gazebo_package
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/environment/path.sh
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/environment/path.dsv
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/local_setup.bash
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/local_setup.sh
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/local_setup.zsh
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/local_setup.dsv
+-- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/package.dsv
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/ament_index/resource_index/packages/my_gazebo_package
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/cmake/my_gazebo_packageConfig.cmake
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/cmake/my_gazebo_packageConfig-version.cmake
+-- Up-to-date: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/my_gazebo_package/share/my_gazebo_package/package.xml

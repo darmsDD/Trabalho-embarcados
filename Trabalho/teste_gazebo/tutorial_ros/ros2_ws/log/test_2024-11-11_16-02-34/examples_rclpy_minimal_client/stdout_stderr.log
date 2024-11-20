@@ -1,0 +1,15 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache
+rootdir: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclpy
+configfile: pytest.ini
+plugins: ament-lint-0.17.1, ament-flake8-0.17.1, launch-testing-3.4.2, ament-xmllint-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, ament-pep257-0.17.1, cov-4.1.0, colcon-core-0.18.3
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+
+- generated xml file: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml -
+[32m============================== [32m[1m3 passed[0m[32m in 0.72s[0m[32m ===============================[0m

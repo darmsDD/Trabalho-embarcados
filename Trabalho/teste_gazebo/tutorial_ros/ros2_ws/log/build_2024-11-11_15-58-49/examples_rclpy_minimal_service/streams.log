@@ -1,0 +1,38 @@
+[3.250s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data
+[4.860s] running develop
+[4.860s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.861s] !!
+[4.861s] 
+[4.861s]         ********************************************************************************
+[4.861s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.861s]         Instead, use pypa/build, pypa/installer or other
+[4.861s]         standards-based tools.
+[4.862s] 
+[4.862s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.862s]         ********************************************************************************
+[4.862s] 
+[4.862s] !!
+[4.862s]   easy_install.initialize_options(self)
+[5.845s] running egg_info
+[5.845s] creating examples_rclpy_minimal_service.egg-info
+[5.888s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[5.890s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[5.891s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[5.892s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[5.896s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[5.896s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.995s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.996s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[6.041s] running build_ext
+[6.045s] Creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[6.046s] Installing service script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[6.048s] Installing service_member_function script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[6.050s] 
+[6.050s] Installed /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service
+[6.050s] running symlink_data
+[6.051s] creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[6.051s] creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[6.052s] creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[6.052s] symbolically linking /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service/resource/examples_rclpy_minimal_service -> /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[6.052s] symbolically linking /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service/package.xml -> /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[6.127s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data

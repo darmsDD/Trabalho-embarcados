@@ -1,0 +1,49 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_typesupport_cpp/turtlesim",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/srv/Kill.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/srv/SetPen.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportAbsolute.idl",
+    "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_workspace/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

@@ -1,0 +1,4 @@
+[01m[K/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/gazebo_ros/src/my_drone_package/src/my_drone_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K cb[m[K(const gz::msgs::Actuators&)[m[K’:
+[01m[K/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/gazebo_ros/src/my_drone_package/src/my_drone_node.cpp:28:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 | void cb([01;35m[Kconst gz::msgs::Actuators &_msg[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

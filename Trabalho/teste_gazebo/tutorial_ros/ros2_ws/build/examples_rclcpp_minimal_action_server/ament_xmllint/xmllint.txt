@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/xmllint.xunit.xml'

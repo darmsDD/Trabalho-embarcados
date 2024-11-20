@@ -1,0 +1,141 @@
+[0.077s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor': AMENT_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_cbg_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_cbg_executor:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.111s] UpdateCTestConfiguration  from :/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.117s] Parse Config file:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.117s]    Site: ivan-550XDA
+[0.117s]    Build name: (empty)
+[0.117s]  Add coverage exclude regular expressions.
+[0.117s] Create new tag: 20241111-1902 - Experimental
+[0.117s] UpdateCTestConfiguration  from :/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.117s] Parse Config file:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.117s] Test project /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.118s] Constructing a list of tests
+[0.118s] Done constructing a list of tests
+[0.118s] Updating test list for fixtures
+[0.118s] Added 0 tests to meet fixture requirements
+[0.118s] Checking test dependency graph...
+[0.118s] Checking test dependency graph end
+[0.118s] test 1
+[0.118s]     Start 1: copyright
+[0.118s] 
+[0.118s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml"
+[0.118s] 1: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+[0.118s] 1: Test timeout computed to be: 200
+[0.162s] 1: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[0.162s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml
+[0.786s] 1: No problems found, checked 8 files
+[0.803s] 1: -- run_test.py: return code 0
+[0.807s] 1: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml'
+[0.825s] 1/6 Test #1: copyright ........................   Passed    0.74 sec
+[0.826s] test 2
+[0.827s]     Start 2: cppcheck
+[0.827s] 
+[0.827s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--include_dirs" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include"
+[0.827s] 2: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+[0.828s] 2: Test timeout computed to be: 300
+[0.922s] 2: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[0.922s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml --include_dirs /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[1.035s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.055s] 2: -- run_test.py: return code 0
+[1.064s] 2: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml'
+[1.086s] 2/6 Test #2: cppcheck .........................   Passed    0.26 sec
+[1.086s] test 3
+[1.086s]     Start 3: cpplint
+[1.086s] 
+[1.086s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml"
+[1.086s] 3: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+[1.087s] 3: Test timeout computed to be: 120
+[1.161s] 3: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[1.162s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml
+[1.519s] 3: Using '--root=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include' argument
+[1.519s] 3: 
+[1.519s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[1.519s] 3: 
+[1.519s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[1.519s] 3: 
+[1.519s] 3: Using '--root=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src' argument
+[1.519s] 3: 
+[1.519s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/ping_node.cpp
+[1.519s] 3: 
+[1.519s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/pong_node.cpp
+[1.519s] 3: 
+[1.520s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/utilities.hpp
+[1.520s] 3: 
+[1.520s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping.cpp
+[1.520s] 3: 
+[1.520s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp
+[1.520s] 3: 
+[1.520s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp
+[1.520s] 3: 
+[1.520s] 3: No problems found
+[1.538s] 3: -- run_test.py: return code 0
+[1.538s] 3: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml'
+[1.545s] 3/6 Test #3: cpplint ..........................   Passed    0.46 sec
+[1.545s] test 4
+[1.545s]     Start 4: lint_cmake
+[1.545s] 
+[1.545s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml"
+[1.546s] 4: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+[1.546s] 4: Test timeout computed to be: 60
+[1.593s] 4: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[1.593s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml
+[1.650s] 4: 
+[1.650s] 4: No problems found
+[1.661s] 4: -- run_test.py: return code 0
+[1.661s] 4: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml'
+[1.671s] 4/6 Test #4: lint_cmake .......................   Passed    0.13 sec
+[1.671s] test 5
+[1.671s]     Start 5: uncrustify
+[1.671s] 
+[1.671s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml"
+[1.671s] 5: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+[1.671s] 5: Test timeout computed to be: 60
+[1.711s] 5: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[1.711s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml
+[1.790s] 5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/ping_node.hpp'
+[1.790s] 5: 
+[1.790s] 5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/pong_node.hpp'
+[1.790s] 5: 
+[1.790s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/ping_node.cpp'
+[1.790s] 5: 
+[1.790s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/pong_node.cpp'
+[1.790s] 5: 
+[1.790s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/utilities.hpp'
+[1.791s] 5: 
+[1.791s] 5: No code style divergence in file 'src/ping.cpp'
+[1.791s] 5: 
+[1.791s] 5: No code style divergence in file 'src/ping_pong.cpp'
+[1.791s] 5: 
+[1.791s] 5: No code style divergence in file 'src/pong.cpp'
+[1.791s] 5: 
+[1.791s] 5: No problems found
+[1.799s] 5: -- run_test.py: return code 0
+[1.799s] 5: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml'
+[1.805s] 5/6 Test #5: uncrustify .......................   Passed    0.13 sec
+[1.806s] test 6
+[1.806s]     Start 6: xmllint
+[1.806s] 
+[1.806s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml"
+[1.806s] 6: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+[1.806s] 6: Test timeout computed to be: 60
+[1.845s] 6: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[1.845s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml
+[2.222s] 6: File 'package.xml' is valid
+[2.222s] 6: 
+[2.222s] 6: No problems found
+[2.256s] 6: -- run_test.py: return code 0
+[2.256s] 6: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml'
+[2.292s] 6/6 Test #6: xmllint ..........................   Passed    0.48 sec
+[2.294s] 
+[2.294s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[2.294s] 
+[2.294s] Label Time Summary:
+[2.294s] copyright     =   0.74 sec*proc (1 test)
+[2.294s] cppcheck      =   0.26 sec*proc (1 test)
+[2.294s] cpplint       =   0.46 sec*proc (1 test)
+[2.294s] lint_cmake    =   0.13 sec*proc (1 test)
+[2.295s] linter        =   2.19 sec*proc (6 tests)
+[2.295s] uncrustify    =   0.13 sec*proc (1 test)
+[2.295s] xmllint       =   0.48 sec*proc (1 test)
+[2.295s] 
+[2.295s] Total Test time (real) =   2.20 sec
+[2.309s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': AMENT_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_cbg_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_cbg_executor:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

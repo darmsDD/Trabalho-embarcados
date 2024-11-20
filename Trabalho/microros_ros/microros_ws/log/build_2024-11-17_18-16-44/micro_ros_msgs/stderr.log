@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/microros_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+gmake[2]: *** [CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/build.make:145: CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/all] Interrupt
+    from setuptools.dist import Distribution
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 37, in <module>
+    from setuptools.config import setupcfg, pyprojecttoml
+  File "/usr/lib/python3/dist-packages/setuptools/config/__init__.py", line 8, in <module>
+    from . import setupcfg
+  File "/usr/lib/python3/dist-packages/setuptools/config/setupcfg.py", line 33, in <module>
+    from ..extern.packaging.markers import default_environment as marker_env
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/markers.py", line 11, in <module>
+    from ._parser import (
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/_parser.py", line 10, in <module>
+    from ._tokenizer import DEFAULT_RULES, Tokenizer
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/_tokenizer.py", line 6, in <module>
+    from .specifiers import Specifier
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/specifiers.py", line 26, in <module>
+    from .utils import canonicalize_version
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/utils.py", line 9, in <module>
+    from .version import InvalidVersion, Version
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/version.py", line 157, in <module>
+    class Version(_BaseVersion):
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/version.py", line 181, in Version
+    _regex = re.compile(r"^\s*" + VERSION_PATTERN + r"\s*$", re.VERBOSE | re.IGNORECASE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/__init__.py", line 228, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/_parser.py", line 979, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/_parser.py", line 878, in _parse
+    subpatternappend((AT, AT_END))
+  File "/usr/lib/python3.12/re/_parser.py", line 176, in append
+    def append(self, code):
+
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_micro_ros_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_micro_ros_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:478: CMakeFiles/ament_cmake_python_build_micro_ros_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

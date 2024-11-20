@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <gui>
+      <camera name="user_camera">
+        <pose>5.6 -144 149 0 0.87 1.56</pose>
+      </camera>
+    </gui>
+    <scene>
+      <sky>
+        <clouds>
+          <speed>0</speed>
+        </clouds>
+      </sky>
+      <ambient>0.8 0.8 0.8 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+      <grid>0</grid>
+      <origin_visual>0</origin_visual>
+    </scene>
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun_2</uri>
+    </include>
+
+    <include>
+      <uri>model://ice_mt_ground</uri>
+    </include>
+
+  </world>
+</sdf>

@@ -1,0 +1,111 @@
+[0.063s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service': AMENT_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_service:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.109s] UpdateCTestConfiguration  from :/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.109s] Parse Config file:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.109s]    Site: ivan-550XDA
+[0.109s]    Build name: (empty)
+[0.110s]  Add coverage exclude regular expressions.
+[0.110s] Create new tag: 20241111-1902 - Experimental
+[0.110s] UpdateCTestConfiguration  from :/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.110s] Parse Config file:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.110s] Test project /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service
+[0.111s] Constructing a list of tests
+[0.111s] Done constructing a list of tests
+[0.111s] Updating test list for fixtures
+[0.111s] Added 0 tests to meet fixture requirements
+[0.111s] Checking test dependency graph...
+[0.111s] Checking test dependency graph end
+[0.111s] test 1
+[0.111s]     Start 1: copyright
+[0.111s] 
+[0.111s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml"
+[0.112s] 1: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service
+[0.112s] 1: Test timeout computed to be: 200
+[0.143s] 1: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[0.143s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml
+[0.366s] 1: No problems found, checked 1 files
+[0.383s] 1: -- run_test.py: return code 0
+[0.384s] 1: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml'
+[0.404s] 1/6 Test #1: copyright ........................   Passed    0.33 sec
+[0.404s] test 2
+[0.408s]     Start 2: cppcheck
+[0.410s] 
+[0.410s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml"
+[0.410s] 2: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service
+[0.410s] 2: Test timeout computed to be: 300
+[0.480s] 2: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[0.480s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml
+[0.586s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.602s] 2: -- run_test.py: return code 0
+[0.603s] 2: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml'
+[0.618s] 2/6 Test #2: cppcheck .........................   Passed    0.21 sec
+[0.620s] test 3
+[0.620s]     Start 3: cpplint
+[0.620s] 
+[0.620s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml"
+[0.620s] 3: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service
+[0.620s] 3: Test timeout computed to be: 120
+[0.690s] 3: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[0.690s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml
+[0.814s] 3: Using '--root=..' argument
+[0.814s] 3: 
+[0.814s] 3: Done processing /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service/main.cpp
+[0.814s] 3: 
+[0.814s] 3: No problems found
+[0.831s] 3: -- run_test.py: return code 0
+[0.832s] 3: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml'
+[0.846s] 3/6 Test #3: cpplint ..........................   Passed    0.23 sec
+[0.846s] test 4
+[0.846s]     Start 4: lint_cmake
+[0.846s] 
+[0.846s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml"
+[0.846s] 4: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service
+[0.846s] 4: Test timeout computed to be: 60
+[0.916s] 4: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[0.917s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml
+[1.011s] 4: 
+[1.012s] 4: No problems found
+[1.026s] 4: -- run_test.py: return code 0
+[1.028s] 4: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml'
+[1.041s] 4/6 Test #4: lint_cmake .......................   Passed    0.20 sec
+[1.041s] test 5
+[1.041s]     Start 5: uncrustify
+[1.042s] 
+[1.042s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml"
+[1.042s] 5: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service
+[1.042s] 5: Test timeout computed to be: 60
+[1.119s] 5: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[1.119s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml
+[1.239s] 5: No code style divergence in file 'main.cpp'
+[1.239s] 5: 
+[1.240s] 5: No problems found
+[1.256s] 5: -- run_test.py: return code 0
+[1.257s] 5: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml'
+[1.271s] 5/6 Test #5: uncrustify .......................   Passed    0.23 sec
+[1.271s] test 6
+[1.271s]     Start 6: xmllint
+[1.271s] 
+[1.271s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml"
+[1.271s] 6: Working Directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service
+[1.272s] 6: Test timeout computed to be: 60
+[1.345s] 6: -- run_test.py: invoking following command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[1.345s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml
+[2.207s] 6: File 'package.xml' is valid
+[2.208s] 6: 
+[2.208s] 6: No problems found
+[2.236s] 6: -- run_test.py: return code 0
+[2.236s] 6: -- run_test.py: verify result file '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml'
+[2.253s] 6/6 Test #6: xmllint ..........................   Passed    0.98 sec
+[2.255s] 
+[2.255s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[2.255s] 
+[2.255s] Label Time Summary:
+[2.255s] copyright     =   0.33 sec*proc (1 test)
+[2.255s] cppcheck      =   0.21 sec*proc (1 test)
+[2.255s] cpplint       =   0.23 sec*proc (1 test)
+[2.256s] lint_cmake    =   0.20 sec*proc (1 test)
+[2.256s] linter        =   2.18 sec*proc (6 tests)
+[2.259s] uncrustify    =   0.23 sec*proc (1 test)
+[2.259s] xmllint       =   0.98 sec*proc (1 test)
+[2.259s] 
+[2.259s] Total Test time (real) =   2.18 sec
+[2.263s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': AMENT_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclcpp_minimal_service:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,13 @@
+15:56:16 **** Incremental Build of configuration Debug for project teste_microRos ****
+make -j8 all 
+arm-none-eabi-gcc -o "teste_microRos.elf" @"objects.list"  -lmicroros -mcpu=cortex-m4 -T"/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_microRos/STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="teste_microRos.map" -Wl,--gc-sections -static -L/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_microRos/Debug/../micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: teste_microRos.elf
+ 
+arm-none-eabi-size  teste_microRos.elf 
+arm-none-eabi-objdump -h -S teste_microRos.elf  > "teste_microRos.list"
+   text	   data	    bss	    dec	    hex	filename
+  29424	     96	  32032	  61552	   f070	teste_microRos.elf
+Finished building: default.size.stdout
+ 
+Finished building: teste_microRos.list
+ 

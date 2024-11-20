@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/src/hello_package -DCMAKE_INSTALL_PREFIX=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package
+[0.050s] -- The C compiler identification is GNU 13.2.0
+[0.095s] -- The CXX compiler identification is GNU 13.2.0
+[0.108s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.387s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.473s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.553s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.553s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/src/hello_package/include>
+[0.553s] -- Configured cppcheck exclude dirs and/or files: 
+[0.553s] -- Added test 'lint_cmake' to check CMake code style
+[0.554s] -- Added test 'uncrustify' to check C / C++ code style
+[0.554s] -- Configured uncrustify additional arguments: 
+[0.555s] -- Added test 'xmllint' to check XML markup files
+[0.556s] -- Configuring done (0.5s)
+[0.559s] -- Generating done (0.0s)
+[0.559s] -- Build files have been written to: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package
+[0.562s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/src/hello_package -DCMAKE_INSTALL_PREFIX=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package
+[0.563s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package -- -j8 -l8
+[0.595s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/hello_node.cpp.o[0m
+[0.619s] [100%] [32m[1mLinking CXX executable hello_node[0m
+[0.652s] [100%] Built target hello_node
+[0.660s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package -- -j8 -l8
+[0.677s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package
+[0.682s] -- Install configuration: ""
+[0.682s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/lib/hello_package/hello_node
+[0.682s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/ament_index/resource_index/package_run_dependencies/hello_package
+[0.682s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/ament_index/resource_index/parent_prefix_path/hello_package
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/environment/ament_prefix_path.sh
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/environment/ament_prefix_path.dsv
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/environment/path.sh
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/environment/path.dsv
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/local_setup.bash
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/local_setup.sh
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/local_setup.zsh
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/local_setup.dsv
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/package.dsv
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/ament_index/resource_index/packages/hello_package
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/cmake/hello_packageConfig.cmake
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/cmake/hello_packageConfig-version.cmake
+[0.683s] -- Installing: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/install/hello_package/share/hello_package/package.xml
+[0.685s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/create_package/build/hello_package

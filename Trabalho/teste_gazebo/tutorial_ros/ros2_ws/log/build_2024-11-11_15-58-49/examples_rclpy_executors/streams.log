@@ -1,0 +1,42 @@
+[4.092s] Invoking command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data
+[11.251s] running develop
+[11.251s] running egg_info
+[11.252s] creating examples_rclpy_executors.egg-info
+[11.252s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[11.252s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[11.252s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[11.252s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[11.252s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[11.252s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[11.252s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[11.252s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[11.252s] running build_ext
+[11.252s] Creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages/examples-rclpy-executors.egg-link (link to .)
+[11.253s] Installing callback_group script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.253s] Installing composed script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.253s] Installing custom_callback_group script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.253s] Installing custom_executor script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.253s] Installing listener script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.253s] Installing talker script to /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.253s] 
+[11.253s] Installed /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors
+[11.253s] running symlink_data
+[11.253s] creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[11.253s] creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[11.254s] creating /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[11.254s] symbolically linking /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[11.254s] symbolically linking /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors/package.xml -> /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[11.272s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[11.272s] !!
+[11.272s] 
+[11.272s]         ********************************************************************************
+[11.272s]         Please avoid running ``setup.py`` and ``easy_install``.
+[11.272s]         Instead, use pypa/build, pypa/installer or other
+[11.272s]         standards-based tools.
+[11.273s] 
+[11.273s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[11.273s]         ********************************************************************************
+[11.273s] 
+[11.273s] !!
+[11.273s]   easy_install.initialize_options(self)
+[11.276s] Invoked command in '/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/tutorial_ros/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data
