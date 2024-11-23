@@ -1,8 +1,8 @@
-# Install script for directory: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/drive_base_msgs/drive_base_msgs__py
+# Install script for directory: /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/drive_base_msgs/drive_base_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/install/drive_base_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/install/drive_base_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

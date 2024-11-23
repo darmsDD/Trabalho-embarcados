@@ -65,8 +65,8 @@ all:
 main-build: teste1.elf secondary-outputs
 
 # Tool invocations
-teste1.elf teste1.map: $(OBJS) $(USER_OBJS) /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/teste1/STM32G474RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "teste1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/teste1/STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="teste1.map" -Wl,--gc-sections -static -L"/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/teste1/Debug/../micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+teste1.elf teste1.map: $(OBJS) $(USER_OBJS) /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/teste1/STM32G474RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "teste1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/teste1/STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="teste1.map" -Wl,--gc-sections -static -L"/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/teste1/Debug/../micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -86,7 +86,7 @@ clean:
 	-@echo ' '
 
 pre-build:
-	docker pull microros/micro_ros_static_library_builder:jazzy && docker run --rm -v "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/teste1":/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:jazzy
+	docker pull microros/micro_ros_static_library_builder:jazzy && docker run --rm -v "/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/teste1":/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:jazzy
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

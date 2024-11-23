@@ -102,6 +102,7 @@ void * microros_zero_allocate(size_t number_of_elements, size_t size_of_element,
 //extern int clock_gettime( int clock_id, struct timespec * tp );
 extern void UTILS_NanosecondsToTimespec( int64_t llSource, struct timespec * const pxDestination );
 void setActuatorMsg(float *);
+void sendActuatorMsg();
 /* USER CODE END FunctionPrototypes */
 
 void microROSTaskFunction(void *argument);
@@ -198,12 +199,13 @@ void microROSTaskFunction(void *argument)
 			HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
 			osDelay(500);
 		}
+		rc2 = rclc_node_init_default(&node, node_name, namespace, &support);
 	}
 
 
-  //time sync
-  if( rmw_uros_sync_session(1000) != RMW_RET_OK)
-	  printf("Error on time sync (line %d)\n", __LINE__);
+//  //time sync
+//  if( rmw_uros_sync_session(1000) != RMW_RET_OK)
+//	  printf("Error on time sync (line %d)\n", __LINE__);
 
   rclc_publisher_init_default(
    	&joint_state_pub,
@@ -211,29 +213,15 @@ void microROSTaskFunction(void *argument)
  	ROSIDL_GET_MSG_TYPE_SUPPORT(actuator_msgs,msg,Actuators),
    	"/X3/gazebo/command/motor_speed");
 
-
-
-//  rclc_publisher_init_default(
-//  	&joint_state_pub,
-//  	&node,
-//	ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
-//  	"/int_message");
-//
-    int i=132;
-//  joint_state_msg.data = i;
     float a_velocity[] = {500,500,100,100};
     setActuatorMsg(a_velocity);
   /* Infinite loop */
   for(;;)
   {
-	  rcl_ret_t ret = rcl_publish(&joint_state_pub, &joint_state_msg, NULL);
-	  if (ret != RCL_RET_OK)
-	  {
-		  printf("Error publishing joint_state (line %d)\n", __LINE__);
-	}
+
 	  osDelay(1000);
+	  sendActuatorMsg();
 	  //joint_state_msg.data = i;
-	  i--;
   }
   /* USER CODE END microROSTaskFunction */
 }
@@ -249,24 +237,29 @@ void microROSTaskFunction(void *argument)
 	 * normalized: []
  * Só nos interessa a velocidade. Então o argumento da função é um ponteiro de float com 4 posições
  */
-void setActuatorMsg(float *fp_velocity){
+void setActuatorMsg(float *fpVelocity){
 	joint_state_msg.header.frame_id.capacity = 20;
 	joint_state_msg.header.frame_id.data = (char*) pvPortMalloc(joint_state_msg.header.frame_id.capacity  * sizeof(char));
 	joint_state_msg.header.frame_id.size = strlen(joint_state_msg.header.frame_id.data);
-//
-//	joint_state_msg.position.capacity = 2;
-//	joint_state_msg.position.data = (double*) pvPortMalloc(joint_state_msg.position.capacity * sizeof(double));
-//	joint_state_msg.position.data[0] = 0;
-//	joint_state_msg.position.data[1] = 0;
-//	joint_state_msg.position.size = 2;
+
 
 	joint_state_msg.velocity.capacity = 4;
 	joint_state_msg.velocity.data = (double*) pvPortMalloc(joint_state_msg.velocity.capacity * sizeof(double));
-	joint_state_msg.velocity.data[0] = fp_velocity[0];
-	joint_state_msg.velocity.data[1] = fp_velocity[1];
-	joint_state_msg.velocity.data[2] = fp_velocity[2];
-	joint_state_msg.velocity.data[3] = fp_velocity[3];
+	joint_state_msg.velocity.data[0] = fpVelocity[0];
+	joint_state_msg.velocity.data[1] = fpVelocity[1];
+	joint_state_msg.velocity.data[2] = fpVelocity[2];
+	joint_state_msg.velocity.data[3] = fpVelocity[3];
+	joint_state_msg.velocity_data[4] = isDataNew;
 	joint_state_msg.velocity.size = 4;
+}
+
+void sendActuatorMsg(){
+	rcl_ret_t ret = rcl_publish(&joint_state_pub, &joint_state_msg, NULL);
+	if (ret != RCL_RET_OK)
+	{
+			  printf("Error publishing joint_state (line %d)\n", __LINE__);
+	}
+
 }
 /* USER CODE END Application */
 

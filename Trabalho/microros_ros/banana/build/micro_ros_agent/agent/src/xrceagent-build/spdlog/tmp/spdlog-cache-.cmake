@@ -1,6 +1,6 @@
 
-set(CMAKE_INSTALL_PREFIX "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2" CACHE PATH "Initial cache" FORCE)
-set(CMAKE_PREFIX_PATH "/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/install/micro_ros_agent;/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/install/micro_ros_agent" CACHE PATH "Initial cache" FORCE)
+set(CMAKE_INSTALL_PREFIX "/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2" CACHE PATH "Initial cache" FORCE)
+set(CMAKE_PREFIX_PATH "/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/install/micro_ros_agent;/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/install/micro_ros_agent" CACHE PATH "Initial cache" FORCE)
 set(BUILD_SHARED_LIBS "OFF" CACHE BOOL "Initial cache" FORCE)
 set(CMAKE_TOOLCHAIN_FILE "" CACHE PATH "Initial cache" FORCE)
 set(CMAKE_BUILD_TYPE "" CACHE STRING "Initial cache" FORCE)

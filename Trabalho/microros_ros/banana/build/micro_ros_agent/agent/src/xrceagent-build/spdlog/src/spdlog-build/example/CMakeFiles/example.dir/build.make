@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog
+CMAKE_SOURCE_DIR = /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+CMAKE_BINARY_DIR = /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
 
 # Include any dependencies generated for this target.
 include example/CMakeFiles/example.dir/depend.make
@@ -70,18 +70,18 @@ include example/CMakeFiles/example.dir/progress.make
 include example/CMakeFiles/example.dir/flags.make
 
 example/CMakeFiles/example.dir/example.cpp.o: example/CMakeFiles/example.dir/flags.make
-example/CMakeFiles/example.dir/example.cpp.o: /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp
+example/CMakeFiles/example.dir/example.cpp.o: /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp
 example/CMakeFiles/example.dir/example.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/example.cpp.o"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/example.cpp.o -MF CMakeFiles/example.dir/example.cpp.o.d -o CMakeFiles/example.dir/example.cpp.o -c /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/example.cpp.o"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/example.cpp.o -MF CMakeFiles/example.dir/example.cpp.o.d -o CMakeFiles/example.dir/example.cpp.o -c /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp
 
 example/CMakeFiles/example.dir/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/example.cpp.i"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp > CMakeFiles/example.dir/example.cpp.i
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp > CMakeFiles/example.dir/example.cpp.i
 
 example/CMakeFiles/example.dir/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/example.cpp.s"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp -o CMakeFiles/example.dir/example.cpp.s
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example/example.cpp -o CMakeFiles/example.dir/example.cpp.s
 
 # Object files for target example
 example_OBJECTS = \
@@ -94,18 +94,18 @@ example/example: example/CMakeFiles/example.dir/example.cpp.o
 example/example: example/CMakeFiles/example.dir/build.make
 example/example: libspdlog.a
 example/example: example/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable example"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable example"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/CMakeFiles/example.dir/build: example/example
 .PHONY : example/CMakeFiles/example.dir/build
 
 example/CMakeFiles/example.dir/clean:
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
 .PHONY : example/CMakeFiles/example.dir/clean
 
 example/CMakeFiles/example.dir/depend:
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example/CMakeFiles/example.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog/example /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build/example/CMakeFiles/example.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : example/CMakeFiles/example.dir/depend
 

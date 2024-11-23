@@ -1,4 +1,0 @@
-interrupted
-gmake[2]: *** [CMakeFiles/ament_cmake_python_build_micro_ros_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_micro_ros_msgs_egg] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:478: CMakeFiles/ament_cmake_python_build_micro_ros_msgs_egg.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

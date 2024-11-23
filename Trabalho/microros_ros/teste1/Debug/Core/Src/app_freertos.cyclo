@@ -1,3 +1,4 @@
-../Core/Src/app_freertos.c:116:6:MX_FREERTOS_Init	1
-../Core/Src/app_freertos.c:158:6:microROSTaskFunction	6
-../Core/Src/app_freertos.c:252:6:setActuatorMsg	1
+../Core/Src/app_freertos.c:117:6:MX_FREERTOS_Init	1
+../Core/Src/app_freertos.c:159:6:microROSTaskFunction	4
+../Core/Src/app_freertos.c:250:6:setActuatorMsg	1
+../Core/Src/app_freertos.c:270:6:sendActuatorMsg	2

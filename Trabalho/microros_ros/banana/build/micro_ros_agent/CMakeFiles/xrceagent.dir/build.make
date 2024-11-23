@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/src/uros/micro-ROS-Agent/micro_ros_agent
+CMAKE_SOURCE_DIR = /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/src/uros/micro-ROS-Agent/micro_ros_agent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent
+CMAKE_BINARY_DIR = /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent
 
 # Utility rule file for xrceagent.
 
@@ -76,50 +76,50 @@ CMakeFiles/xrceagent-complete: agent/src/xrceagent-stamp/xrceagent-patch
 CMakeFiles/xrceagent-complete: agent/src/xrceagent-stamp/xrceagent-configure
 CMakeFiles/xrceagent-complete: agent/src/xrceagent-stamp/xrceagent-build
 CMakeFiles/xrceagent-complete: agent/src/xrceagent-stamp/xrceagent-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'xrceagent'"
-	/usr/bin/cmake -E make_directory /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles
-	/usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles/xrceagent-complete
-	/usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'xrceagent'"
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E make_directory /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles/xrceagent-complete
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-done
 
 agent/src/xrceagent-stamp/xrceagent-build: agent/src/xrceagent-stamp/xrceagent-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'xrceagent'"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && $(MAKE)
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'xrceagent'"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && $(MAKE)
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build
 
 agent/src/xrceagent-stamp/xrceagent-configure: agent/tmp/xrceagent-cfgcmd.txt
 agent/src/xrceagent-stamp/xrceagent-configure: agent/tmp/xrceagent-cache-.cmake
 agent/src/xrceagent-stamp/xrceagent-configure: agent/src/xrceagent-stamp/xrceagent-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'xrceagent'"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /usr/bin/cmake "-GUnix Makefiles" -C/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake -S /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent -B /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'xrceagent'"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake "-GUnix Makefiles" -C/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake -S /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent -B /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure
 
 agent/src/xrceagent-stamp/xrceagent-download: agent/src/xrceagent-stamp/xrceagent-gitinfo.txt
 agent/src/xrceagent-stamp/xrceagent-download: agent/src/xrceagent-stamp/xrceagent-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'xrceagent'"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src && /usr/bin/cmake -P /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src && /usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'xrceagent'"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -P /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download
 
 agent/src/xrceagent-stamp/xrceagent-install: agent/src/xrceagent-stamp/xrceagent-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'xrceagent'"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && $(MAKE) install
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'xrceagent'"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && $(MAKE) install
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-build && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install
 
 agent/src/xrceagent-stamp/xrceagent-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'xrceagent'"
-	/usr/bin/cmake -Dcfgdir= -P /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'xrceagent'"
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -Dcfgdir= -P /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-mkdirs.cmake
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir
 
 agent/src/xrceagent-stamp/xrceagent-patch: agent/src/xrceagent-stamp/xrceagent-patch-info.txt
 agent/src/xrceagent-stamp/xrceagent-patch: agent/src/xrceagent-stamp/xrceagent-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'xrceagent'"
-	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'xrceagent'"
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E echo_append
+	/home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -E touch /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch
 
 agent/src/xrceagent-stamp/xrceagent-update: agent/tmp/xrceagent-gitupdate.cmake
 agent/src/xrceagent-stamp/xrceagent-update: agent/src/xrceagent-stamp/xrceagent-update-info.txt
 agent/src/xrceagent-stamp/xrceagent-update: agent/src/xrceagent-stamp/xrceagent-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'xrceagent'"
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent && /usr/bin/cmake -Dcan_fetch=YES -P /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'xrceagent'"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/src/xrceagent && /home/ivan/st/stm32cubeclt_1.16.0/CMake/bin/cmake -Dcan_fetch=YES -P /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/agent/tmp/xrceagent-gitupdate.cmake
 
 xrceagent: CMakeFiles/xrceagent
 xrceagent: CMakeFiles/xrceagent-complete
@@ -142,6 +142,6 @@ CMakeFiles/xrceagent.dir/clean:
 .PHONY : CMakeFiles/xrceagent.dir/clean
 
 CMakeFiles/xrceagent.dir/depend:
-	cd /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/src/uros/micro-ROS-Agent/micro_ros_agent /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/src/uros/micro-ROS-Agent/micro_ros_agent /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent /home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles/xrceagent.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/src/uros/micro-ROS-Agent/micro_ros_agent /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/src/uros/micro-ROS-Agent/micro_ros_agent /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent /home/ivan/Desktop/Unicamp/Trabalho-embarcados/Trabalho/microros_ros/banana/build/micro_ros_agent/CMakeFiles/xrceagent.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/xrceagent.dir/depend
 

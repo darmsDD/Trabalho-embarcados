@@ -1,3 +1,0 @@
-/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/treino/pasta_drone2/build2/CMakeFiles/motor_command.dir
-/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/treino/pasta_drone2/build2/CMakeFiles/edit_cache.dir
-/home/ivan/Desktop/Unicamp/IvanUnicamp/Disciplinas/IM_420_Sistemas_Embarcados_de_Tempo_Real/Trabalho/teste_gazebo/treino/pasta_drone2/build2/CMakeFiles/rebuild_cache.dir

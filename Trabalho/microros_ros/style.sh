@@ -53,4 +53,10 @@ stage_init(){
     #echo -e "${On_Black}$repeated_char${Color_Off}\n"
 }
 
+sub_stage_init(){
+    echo -e $2 "\t"${BYellow}$1"\n"${Color_Off} 
+    #echo -e "${On_Black}$repeated_char${Color_Off}\n"
+}
+
+
 export -f red_word

@@ -47,7 +47,7 @@ AuthorizationInput(){
         #ExecuteFunctionAndCheckError $my_function $my_clean_up_function
         $my_function
     else
-        red_word "Autorização não concedida. Encerrando"
+        red_word "Autorização não concedida."
         return 1
     fi
     
@@ -77,5 +77,30 @@ FindDir() {
     fi
 }
 
+TmuxCreateSession(){
+    tmux new-session -d -s $session_name  
+}
+
+TmuxStyleSession(){
+    tmux rename-window -t $session_name:0 $window_name
+    tmux split-window -h
+    tmux split-window -v
+    tmux select-pane -t 0
+    tmux split-window -v
+    tmux select-layout tiled
+}
+
+TmuxStartPaneCommands(){
+    tmux send-keys -t $full_path.0 "MicrosRosAgentRun" Enter
+    read -p "Aperte enter depois de rodar o código no microcontrolador ou aperte o botão de reset, caso o código já esteja na placa."
+    tmux send-keys -t $full_path.1 "RosSubscriber" Enter
+    tmux send-keys -t $full_path.2 "RosPublisher" Enter
+    tmux send-keys -t $full_path.3 "RosBridge" Enter
+    tmux attach -t $session_name
+}
+
+TmuxKillSession(){
+    tmux kill-session -t $session_name
+}
 
 export -f ExecuteFunctionAndCheckError
