@@ -1,0 +1,11 @@
+../Core/Src/my_microROS_functions.c:78:6:vSetActuatorMsg	24	static
+../Core/Src/my_microROS_functions.c:112:6:vFirstSetActuatorMsg	24	static
+../Core/Src/my_microROS_functions.c:143:6:vSendActuatorMsg	8	static
+../Core/Src/my_microROS_functions.c:176:6:vImuCallback	16	static
+../Core/Src/my_microROS_functions.c:212:6:vMyMicroros	32	static
+../Core/Src/my_microROS_functions.c:268:11:i32MicrorosConfiguration	80	static
+../Core/Src/my_microROS_functions.c:335:11:i32CreateNode	24	static
+../Core/Src/my_microROS_functions.c:366:11:i32CreatePublisher	16	static
+../Core/Src/my_microROS_functions.c:402:11:i32CreateSubscriber	24	static
+../Core/Src/my_microROS_functions.c:440:11:i32CreateExecutor	64	static
+../Core/Src/my_microROS_functions.c:476:6:vFastBlinkOnError	16	static
