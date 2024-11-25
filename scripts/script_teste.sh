@@ -46,7 +46,7 @@ stage_over
 
 stage_init "4- Iniciando a STM32"
 SetupStm32CubeIde
-yellow_word "O projeto já está no STM32CubeIDE?[S/n]:" -n
+purple_word "O projeto já está no STM32CubeIDE?[S/n]:" -n
 read input
 if [ $input == "S" ]; then
     sub_stage_init "4.1- Buildando o projeto"
