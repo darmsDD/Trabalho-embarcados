@@ -1,4 +1,0 @@
-../Core/Src/app_freertos.c:117:6:MX_FREERTOS_Init	8	static
-../Core/Src/app_freertos.c:159:6:microROSTaskFunction	176	static
-../Core/Src/app_freertos.c:250:6:setActuatorMsg	24	static
-../Core/Src/app_freertos.c:270:6:sendActuatorMsg	16	static
