@@ -1,0 +1,6 @@
+.metadata/
+.settings/
+
+.vscode/
+*.code-workspace
+banana/
