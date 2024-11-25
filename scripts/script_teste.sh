@@ -46,13 +46,17 @@ stage_init "4- Iniciando o gazebo"
 StartGazebo
 stage_over
 
-stage_init "5- Configurando o tmux com 3 painéis:\n\t1.Agente do MicroRos\n\t2.Microcontrolador => PC \n\t3.PC =>  Microcontrolador"
+stage_init "5- Iniciando a STM32CubeIDE"
+StartStm32CubeIde
+stage_over
 
-sub_stage_init "5.1- Criando a sessão tmux"
+stage_init "6- Configurando o tmux com 3 painéis:\n\t1.Agente do MicroRos\n\t2.Microcontrolador => PC \n\t3.PC =>  Microcontrolador"
+
+sub_stage_init "6.1- Criando a sessão tmux"
 ExecuteFunctionAndCheckError TmuxCreateSession TmuxKillSession
-sub_stage_init "5.2- Estilizando a sessão tmux"
+sub_stage_init "6.2- Estilizando a sessão tmux"
 ExecuteFunctionAndCheckError TmuxStyleSession
-sub_stage_init "5.3- Iniciando os painéis"
+sub_stage_init "6.3- Iniciando os painéis"
 ExecuteFunctionAndCheckError TmuxStartPaneCommands TmuxKillSession
 stage_over
 stage_init "Finalizando o programa"

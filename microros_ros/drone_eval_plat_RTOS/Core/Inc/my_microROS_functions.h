@@ -28,7 +28,9 @@
 #include "main.h"
 #include "cmsis_os.h"
 
-extern osThreadId_t readFromHostHandle;
+//extern osThreadId_t readFromHostHandle;
+
+extern osEventFlagsId_t hostImuEventHandle;
 extern UART_HandleTypeDef hlpuart1;
 /* Subscriber declaration */
 extern rcl_subscription_t imu_sub;

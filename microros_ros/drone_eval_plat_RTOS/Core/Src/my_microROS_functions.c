@@ -8,7 +8,6 @@
 
 #include "my_microROS_functions.h"
 
-
 /* Subscriber declaration */
 rcl_subscription_t imu_sub;
 
@@ -31,7 +30,6 @@ rclc_executor_t executor;
 
 const int iNumberOfTries = 1;
 rcl_ret_t i32PubMessageState = RCL_RET_OK;
-
 
 /* *********************************************************************
 	Method name:
@@ -162,16 +160,30 @@ void vSendActuatorMsg(){
 	Extra:
 
 *************************************************************************/
+//void vImuCallback(const void * msgin)
+//{
+//	//const sensor_msgs__msg__Imu * minha_msg;
+//	if (msgin != NULL)
+//	{
+//		// Indica que houve leitura da IMU para a tarefa escrever setpoint
+//		osThreadFlagsSet(readFromHostHandle, 0x01);
+//		//float a_velocity[] = {5,10,100,500};
+//		//vSetActuatorMsg(a_velocity);
+//		HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
+//	}
+//
+//}
 void vImuCallback(const void * msgin)
 {
 	//const sensor_msgs__msg__Imu * minha_msg;
 	if (msgin != NULL)
 	{
 		// Indica que houve leitura da IMU para a tarefa escrever setpoint
-		osThreadFlagsSet(readFromHostHandle, 0x01);
-		float a_velocity[] = {5,10,100,500};
-		vSetActuatorMsg(a_velocity);
-		HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
+		osEventFlagsSet(hostImuEventHandle,0x01);
+		//uint32_t valor_flag = osThreadFlagsSet(readFromHostHandle, 0x01);
+		//float a_velocity[] = {5,10,100,500};
+		//vSetActuatorMsg(a_velocity);
+		//HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
 	}
 
 }

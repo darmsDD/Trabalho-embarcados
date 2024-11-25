@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-
 #include "FreeRTOS.h"
 #include "task.h"
 #include "main.h"
@@ -135,7 +134,7 @@ osThreadId_t readFromHostHandle;
 const osThreadAttr_t readFromHost_attributes = {
   .name = "readFromHost",
   .priority = (osPriority_t) osPriorityNormal6,
-  .stack_size = 128 * 4
+  .stack_size = 500 * 4
 };
 /* Definitions for readFromIMU */
 osThreadId_t readFromIMUHandle;
@@ -203,6 +202,11 @@ const osMessageQueueAttr_t IMUdata_attributes = {
 osSemaphoreId_t IMUshouldUpdateHandle;
 const osSemaphoreAttr_t IMUshouldUpdate_attributes = {
   .name = "IMUshouldUpdate"
+};
+/* Definitions for hostImuEvent */
+osEventFlagsId_t hostImuEventHandle;
+const osEventFlagsAttr_t hostImuEvent_attributes = {
+  .name = "hostImuEvent"
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -307,6 +311,10 @@ void MX_FREERTOS_Init(void) {
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
 
+  /* Create the event(s) */
+  /* creation of hostImuEvent */
+  hostImuEventHandle = osEventFlagsNew(&hostImuEvent_attributes);
+
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
   /* USER CODE END RTOS_EVENTS */
@@ -327,6 +335,8 @@ void defaultTaskFunc(void *argument)
   /* Infinite loop */
   for(;;)
   {
+	//uint32_t valor_flag = osThreadFlagsSet(readFromHostHandle, 0x01);
+	//osEventFlagsSet(hostImuEventHandle,0x01);
     vMyMicroros();
     osDelay(1000);
   }
@@ -448,15 +458,19 @@ void readFromHostFunc(void *argument)
   /* USER CODE BEGIN readFromHostFunc */
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
 	xSetpoint xHostData = {0, 0, 0, 0};
-	float a_velocity[] = {5,10,100,500};
+
+	int i=0;
   /* Infinite loop */
   for(;;)
   {
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
-	osThreadFlagsWait(0x01, osFlagsWaitAll, osWaitForever);
-//	vSetActuatorMsg(a_velocity);
-//	HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
-    osDelay(DEFAULT_OSDELAY_LOOP);
+	osEventFlagsWait(hostImuEventHandle, 0x01, osFlagsWaitAll, osWaitForever);
+
+	float a_velocity[] = {i,i+10,i+100,i+500};
+	vSetActuatorMsg(a_velocity);
+	osDelay(DEFAULT_OSDELAY_LOOP);
+    i++;
+    i%=100;
   }
   /* USER CODE END readFromHostFunc */
 }
@@ -759,6 +773,7 @@ int _write(int file, char *ptr, int len)
   osMessageQueuePut(printfQueueHandle, &xIncommingMessage, 0x0, 100);
   return len;
 }
+
 
 /* USER CODE END Application */
 

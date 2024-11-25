@@ -78,7 +78,9 @@ FindDir() {
     fi
 }
 
-
+# Responsável por verificar se a pasta micro_ros_stm32cubemx_utils, pois ela é essencial para o funcionamento do sistema.
+# 1- Caso a pasta não exista, clona o repositório.
+# 2- Reescreve o arquivo extra_packages.repos, para adicionar os pacotes necessários para o funcionamento do projeto.
 FindMicroUtils() {
     #yellow_word
     cd ../$path_utils

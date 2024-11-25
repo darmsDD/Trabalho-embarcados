@@ -78,6 +78,12 @@ StartGazebo(){
 }
 
 
+StartStm32CubeIde(){
+    BASE_DIR=/
+    stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null) 
+    $stm32cubeideExec &>/dev/null &
+}
+
 # if [ -z "$1" ];  then
 #     InitialSetup
 #     MicrosRosAgentSetup
