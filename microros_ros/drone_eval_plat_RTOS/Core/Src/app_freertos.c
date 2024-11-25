@@ -355,7 +355,7 @@ void BT_uart_func(void *argument)
   /* USER CODE BEGIN BT_uart_func */
 
   /* Infinite loop */
-  printf("\r\nbluetooth IS on\r\n");
+  printf("bluetooth IS on\r\n");
   for(;;)
   {
     HAL_UART_Receive_IT(&huart5, &ucUartInputChar, 1);
@@ -364,14 +364,40 @@ void BT_uart_func(void *argument)
     while ( usLastPrintedIndex != usBufferIndex ){
 
       printf("bluetooth int: ");
-      if ( ucUartInputBuffer[usLastPrintedIndex] == '0')
-        printf("KEY_RELEASED");
-      else
+      if ( ucUartInputBuffer[usLastPrintedIndex] == '0'){
+        printf("KEY_RELEASED\r\n");
+        // HAL_UART_Transmit(&huart4, "1", 1, 100);
+      }else{
         printf((char *) &( ucUartInputBuffer[usLastPrintedIndex] ));
+        printf("\r\n");
+        if ( ucUartInputBuffer[usLastPrintedIndex] == 'v'){
+          xJoystickDataIncoming.fYaw += 15;
+          osThreadFlagsSet(writeSetpointHandle, 0x1);
+        }
+        else if ( ucUartInputBuffer[usLastPrintedIndex] == 'b'){
+          xJoystickDataIncoming.fYaw += -15;
+          osThreadFlagsSet(writeSetpointHandle, 0x1);
+        }
+        else if ( ucUartInputBuffer[usLastPrintedIndex] == 'w'){
+          xJoystickDataIncoming.fPitch += 15;
+          osThreadFlagsSet(writeSetpointHandle, 0x1);
+        }
+        else if ( ucUartInputBuffer[usLastPrintedIndex] == 's'){
+          xJoystickDataIncoming.fPitch += -15;
+          osThreadFlagsSet(writeSetpointHandle, 0x1);
+        }
+        else if ( ucUartInputBuffer[usLastPrintedIndex] == 'a'){
+          xJoystickDataIncoming.fRoll += 15;
+          osThreadFlagsSet(writeSetpointHandle, 0x1);
+        }
+        else if ( ucUartInputBuffer[usLastPrintedIndex] == 'd'){
+          xJoystickDataIncoming.fRoll += -15;
+          osThreadFlagsSet(writeSetpointHandle, 0x1);
+        }
+      }
       usLastPrintedIndex++;
 
 
-      printf("\r\n");
       if (usLastPrintedIndex >  UART_BUFFER_SIZE - 1)
         usLastPrintedIndex = 0;
     }
