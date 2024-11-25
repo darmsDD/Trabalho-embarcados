@@ -481,9 +481,13 @@ void vFastBlinkOnError(){
 }
 
 
-xSetpoint xCalculateAnglesFromLinearAngularAcceleration(fLinearAcceleration,fAngularAcceleration){
+xSetpoint xConvertQuaternionToAngle(geometry_msgs__msg__Quaternion xImuQuaternionAngles){
 	xSetpoint xAngularPositions;
+	xHostData.fYaw = xImuQuaternionAngles.x;
+	xHostData.fRoll = xImuQuaternionAngles.z;
+	xHostData.fPitch = xImuQuaternionAngles.y;
 
+	var Θ = Math.Acos(W)*2;
 	return xAngularPositions;
 }
 

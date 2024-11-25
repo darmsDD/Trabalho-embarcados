@@ -48,12 +48,12 @@ typedef struct {
   char pMessageBuffer[MAX_MESSAGE_LEN];
 } xPrintfMessage;
 
-typedef struct {
-  float fYaw;
-  float fRoll;
-  float fPitch;
-  int iDataFromJoystick;
-} xSetpoint;
+//typedef struct {
+//  float fYaw;
+//  float fRoll;
+//  float fPitch;
+//  int iDataFromJoystick;
+//} xSetpoint;
 
 typedef struct {
   float fYaw;
@@ -497,7 +497,7 @@ void readFromHostFunc(void *argument)
 {
   /* USER CODE BEGIN readFromHostFunc */
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
-	//xSetpoint xHostData = {0, 0, 0, 0};
+	xSetpoint angles;
 
 	int i=0;
   /* Infinite loop */
@@ -506,18 +506,24 @@ void readFromHostFunc(void *argument)
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
 	osEventFlagsWait(hostImuEventHandle, 0x01, osFlagsWaitAll, osWaitForever);
 
+	imu_msg.orientation.x;
+	imu_msg.orientation.y;
+	imu_msg.orientation.z;
+	imu_msg.orientation.w;
 
+	imu_msg.
+	angles = xCalculateAnglesFromLinearAngularAcceleration()
 
-	vSetActuatorMsg(a_velocity);
-	xHostData.fYaw = angle.x;
-	xHostData.fRoll = angle.z;
-	xHostData.fPitch = angle.y;
+	//vSetActuatorMsg(a_velocity);
+//	xHostData.fYaw = angles.x;
+//	xHostData.fRoll = angles.z;
+//	xHostData.fPitch = angles.y;
+	xHostData.fYaw = angles.fYaw;
+	xHostData.fRoll = angles.fRoll;
+	xHostData.fPitch = angles.fPitch;
 	xHostData.iDataFromJoystick = 0x10;
-
 	osThreadFlagsSet(writeSetpointHandle, 0x10);
 	osDelay(DEFAULT_OSDELAY_LOOP);
-    i++;
-    i%=100;
   }
   /* USER CODE END readFromHostFunc */
 }
