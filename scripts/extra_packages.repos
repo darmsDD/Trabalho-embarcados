@@ -1,0 +1,9 @@
+repositories:
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs
+    version: master
+  actuator_msgs:
+    type: git
+    url: https://github.com/rudislabs/actuator_msgs
+    version: main

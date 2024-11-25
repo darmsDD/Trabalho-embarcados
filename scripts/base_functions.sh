@@ -78,6 +78,19 @@ FindDir() {
     fi
 }
 
+
+FindMicroUtils() {
+    #yellow_word
+    cd ../$path_utils
+    pwd
+    if [ ! -d micro_utils_name ]; then
+        git clone https://github.com/micro-ROS/micro_ros_stm32cubemx_utils.git
+        mv ../../scripts/extra_packages.repo  "micro_ros_stm32cubemx_utils/microros_static_library_ide/library_generation/extra_packages/extra_packages.repos"
+    fi
+    cd ../../scripts
+    ls
+}
+
 # Responsável por criar uma nova sessão do TMUX
 TmuxCreateSession(){
     tmux new-session -d -s $session_name  

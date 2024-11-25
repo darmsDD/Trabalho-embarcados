@@ -4,6 +4,8 @@
 set -a
 export folder_name="banana"
 export stm_workspace_name="microros_ros"
+export path_utils="microros_ros/drone_eval_plat_RTOS/"
+export micro_utils_name="microros_ros/drone_eval_plat_RTOS/micro_ros_stm32cubemx_utils"
 export my_ros_domain_id=25
 export clone_command="git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup"
 export topic_velocity_name="/X3/gazebo/command/motor_speed"
@@ -23,6 +25,10 @@ init_style
 . ./microROS_functions.sh
 
 trap terminateProgram SIGINT
+
+stage_init "0- Procurando o diretório $micro_ros_stm32cubemx_utils"
+ExecuteFunctionAndCheckError FindMicroUtils
+stage_over
 
 stage_init "1- Procurando o diretório $folder_name"
 ExecuteFunctionAndCheckError FindDir RmCreatedDir
