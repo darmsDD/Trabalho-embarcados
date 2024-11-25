@@ -3,6 +3,18 @@ Simulador de um drone com microROS e gazebo
 
 ## Passos para executar esse programa:
 
+0. Troque o conteúdo do arquivo Trabalho-embarcados/microros_ros/drone_eval_plat_RTOS/micro_ros_stm32cubemx_utils/microros_static_library_ide/library_generation/extra_packages/extra_packages.repos por:
+```
+repositories:
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs
+    version: master
+  actuator_msgs:
+    type: git
+    url: https://github.com/rudislabs/actuator_msgs
+    version: main
+```
 1. Abra um workspace da STM32CubeIDE e escolha o caminho até a pasta microros_ros.
 2. Faça a build do projeto teste1.
 3. Execute o código na sua placa  NUCLOE-G474RE
