@@ -85,7 +85,7 @@ FindMicroUtils() {
     pwd
     if [ ! -d micro_utils_name ]; then
         git clone https://github.com/micro-ROS/micro_ros_stm32cubemx_utils.git
-        mv ../../scripts/extra_packages.repo  "micro_ros_stm32cubemx_utils/microros_static_library_ide/library_generation/extra_packages/extra_packages.repos"
+        cp ../../scripts/extra_packages.repos  "micro_ros_stm32cubemx_utils/microros_static_library_ide/library_generation/extra_packages/extra_packages.repos"
     fi
     cd ../../scripts
     ls

@@ -26,7 +26,7 @@ init_style
 
 trap terminateProgram SIGINT
 
-stage_init "0- Procurando o diretório $micro_ros_stm32cubemx_utils"
+stage_init "0- Procurando o diretório $micro_utils_name"
 ExecuteFunctionAndCheckError FindMicroUtils
 stage_over
 
