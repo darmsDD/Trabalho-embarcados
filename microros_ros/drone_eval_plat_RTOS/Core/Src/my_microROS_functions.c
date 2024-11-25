@@ -479,3 +479,19 @@ void vFastBlinkOnError(){
 		osDelay(100);
 	}
 }
+
+
+xSetpoint xCalculateAnglesFromLinearAngularAcceleration(fLinearAcceleration,fAngularAcceleration){
+	xSetpoint xAngularPositions;
+
+	return xAngularPositions;
+}
+
+//typedef struct {
+//  float fYaw;
+//  float fRoll;
+//  float fPitch;
+//  int iDataFromJoystick;
+//} xSetpoint;
+
+

@@ -457,7 +457,7 @@ void readFromHostFunc(void *argument)
 {
   /* USER CODE BEGIN readFromHostFunc */
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
-	xSetpoint xHostData = {0, 0, 0, 0};
+	//xSetpoint xHostData = {0, 0, 0, 0};
 
 	int i=0;
   /* Infinite loop */
@@ -466,8 +466,15 @@ void readFromHostFunc(void *argument)
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
 	osEventFlagsWait(hostImuEventHandle, 0x01, osFlagsWaitAll, osWaitForever);
 
-	float a_velocity[] = {i,i+10,i+100,i+500};
+
+
 	vSetActuatorMsg(a_velocity);
+	xHostData.fYaw = angle.x;
+	xHostData.fRoll = angle.z;
+	xHostData.fPitch = angle.y;
+	xHostData.iDataFromJoystick = 0x10;
+
+	osThreadFlagsSet(writeSetpointHandle, 0x10);
 	osDelay(DEFAULT_OSDELAY_LOOP);
     i++;
     i%=100;
