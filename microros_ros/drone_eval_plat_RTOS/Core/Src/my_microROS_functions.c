@@ -483,11 +483,11 @@ void vFastBlinkOnError(){
 
 xSetpoint xConvertQuaternionToAngle(geometry_msgs__msg__Quaternion xImuQuaternionAngles){
 	xSetpoint xAngularPositions;
-	xHostData.fYaw = xImuQuaternionAngles.x;
-	xHostData.fRoll = xImuQuaternionAngles.z;
-	xHostData.fPitch = xImuQuaternionAngles.y;
+//	xHostData.fYaw = xImuQuaternionAngles.x;
+//	xHostData.fRoll = xImuQuaternionAngles.z;
+//	xHostData.fPitch = xImuQuaternionAngles.y;
 
-	var Θ = Math.Acos(W)*2;
+//	var Θ = Math.Acos(W)*2;
 	return xAngularPositions;
 }
 

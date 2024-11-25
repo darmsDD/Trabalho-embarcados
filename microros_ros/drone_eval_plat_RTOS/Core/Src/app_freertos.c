@@ -511,8 +511,8 @@ void readFromHostFunc(void *argument)
 	imu_msg.orientation.z;
 	imu_msg.orientation.w;
 
-	imu_msg.
-	angles = xCalculateAnglesFromLinearAngularAcceleration()
+
+	//angles = xCalculateAnglesFromLinearAngularAcceleration()
 
 	//vSetActuatorMsg(a_velocity);
 //	xHostData.fYaw = angles.x;
