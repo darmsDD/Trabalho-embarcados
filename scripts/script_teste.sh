@@ -4,8 +4,8 @@
 set -a
 export folder_name="banana"
 export stm_workspace_name="microros_ros"
-export path_utils="microros_ros/drone_eval_plat_RTOS/"
-export micro_utils_name="microros_ros/drone_eval_plat_RTOS/micro_ros_stm32cubemx_utils"
+export micro_utils_path="microros_ros/drone_eval_plat_RTOS/"
+export micro_utils_name="micro_ros_stm32cubemx_utils"
 export my_ros_domain_id=25
 export clone_command="git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup"
 export topic_velocity_name="/X3/gazebo/command/motor_speed"
@@ -42,16 +42,25 @@ stage_init "3- Criando o agente do micro_ros"
 ExecuteFunctionAndCheckError MicrosRosAgentSetup RmCreatedDir
 stage_over
 
-stage_init "4- Iniciando o gazebo"
+
+
+stage_init "4- Iniciando a STM32"
+SetupStm32CubeIde
+yellow_word "O projeto já está no STM32CubeIDE?[S/n]:" -n
+read input
+if [ $input == "S" ]; then
+    sub_stage_init "4.1- Buildando o projeto"
+    BuildStm32CubeProject   
+fi
+sub_stage_init "4.2- Abrindo o STM32CubeIDE"
+StartStm32CubeIde
+stage_over
+
+
+stage_init "5- Iniciando o gazebo"
 StartGazebo
 stage_over
 
-stage_init "5- Iniciando a STM32CubeIDE"
-sub_stage_init "5.1- Buildando o projeto"
-BuildStm32CubeProject
-StartStm32CubeIde
-sub_stage_init "5.2- Abrindo o STM32CubeIDE"
-stage_over
 
 stage_init "6- Configurando o tmux com 3 painéis:\n\t1.Agente do MicroRos\n\t2.Microcontrolador => PC \n\t3.PC =>  Microcontrolador"
 

@@ -83,14 +83,12 @@ FindDir() {
 # 2- Reescreve o arquivo extra_packages.repos, para adicionar os pacotes necessários para o funcionamento do projeto.
 FindMicroUtils() {
     #yellow_word
-    cd ../$path_utils
-    pwd
-    if [ ! -d micro_utils_name ]; then
+    cd ../$micro_utils_path
+    if [ ! -d $micro_utils_name ]; then
         git clone https://github.com/micro-ROS/micro_ros_stm32cubemx_utils.git
         cp ../../scripts/extra_packages.repos  "micro_ros_stm32cubemx_utils/microros_static_library_ide/library_generation/extra_packages/extra_packages.repos"
     fi
     cd ../../scripts
-    ls
 }
 
 # Responsável por criar uma nova sessão do TMUX

@@ -78,6 +78,11 @@ StartGazebo(){
 }
 
 
+SetupStm32CubeIde(){
+    BASE_DIR=/
+    stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null)
+}
+
 StartStm32CubeIde(){
     BASE_DIR=/
     # stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null) 
@@ -87,8 +92,7 @@ StartStm32CubeIde(){
 BuildStm32CubeProject(){
     
     cd ..
-    BASE_DIR=/
-    stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null)
+    
     build_stm="$stm32cubeideExec --launcher.suppressErrors -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data "./" -build drone_eval_plat_RTOS/Debug"
     $build_stm
     cd $folder_name
