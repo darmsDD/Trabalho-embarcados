@@ -1,0 +1,3 @@
+[submodule "microros_ros/drone_eval_plat_RTOS/micro_ros_stm32cubemx_utils"]
+	path = microros_ros/drone_eval_plat_RTOS/micro_ros_stm32cubemx_utils
+	url = git@github.com:micro-ROS/micro_ros_stm32cubemx_utils.git
