@@ -1,6 +1,7 @@
 .metadata/
 .settings/
 
+micro_ros_stm32cubemx_utils/
 .vscode/
 *.code-workspace
 banana/
