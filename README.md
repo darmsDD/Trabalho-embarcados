@@ -3,12 +3,11 @@ Simulador de um drone com microROS e gazebo
 
 ## Passos para executar esse programa:
 
-1. Execute ``` ./script_teste.sh ```
-2. Abra um workspace da STM32CubeIDE e escolha o caminho até a pasta microros_ros.
-3. Faça a build do projeto teste1.
-4. Execute o código na sua placa  NUCLOE-G474RE
-5. Agora você pode fechar a STM32CubeIDE.
-6. Abra um terminal.
-7. Acesse a pasta microros_ros.
-8. Siga as etapas indicadas pelo terminal.
-9. Para finalizar aperte ctrl+b e depois a tecla d. Isso fechará a sessão tmux e a simulação.
+1. Acesse a pasta ```microros_ros/scripts``` pelo terminal.
+2. Execute ``` ./script_teste.sh ```. 
+3. Serão executadas diversas etapas pelo script. Inclusive a abertura da aplicação STM32CubeIDE.
+    1. Se o projeto já tiver sido adicionado ao workspace "microros_ros" a build será feita pelo script. 
+Caso contrário é necessário realizar a build pela própria interface da aplicação STM32CubeIDE.
+    2. Execute o código, pelo STM32CubeIDE.
+    3. Depois de rodar o código na placa, o STM32CubeIDE pode ser fechado.
+5. Para finalizar aperte ctrl+b e depois a tecla d. Isso fechará a sessão tmux, a simulação e o STM32CubeIDE (se não tiver sido fechado anteriormente).
