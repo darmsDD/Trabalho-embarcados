@@ -47,7 +47,10 @@ StartGazebo
 stage_over
 
 stage_init "5- Iniciando a STM32CubeIDE"
+sub_stage_init "5.1- Buildando o projeto"
+BuildStm32CubeProject
 StartStm32CubeIde
+sub_stage_init "5.2- Abrindo o STM32CubeIDE"
 stage_over
 
 stage_init "6- Configurando o tmux com 3 painéis:\n\t1.Agente do MicroRos\n\t2.Microcontrolador => PC \n\t3.PC =>  Microcontrolador"

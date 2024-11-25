@@ -8,7 +8,7 @@
 # export imu_gazebo_msg_type="gz.msgs.IMU"
 # export topic_imu_name="drone/imu"
 # export my_ros_domain_id=25
-
+stm32cubeideExec=0
 # Faz a build do pacote e instala dependências 
 InitialSetup() {
     rosdep install --from-path src --ignore-src -y
@@ -80,17 +80,20 @@ StartGazebo(){
 
 StartStm32CubeIde(){
     BASE_DIR=/
-    stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null) 
+    # stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null) 
     $stm32cubeideExec &>/dev/null &
 }
 
-# if [ -z "$1" ];  then
-#     InitialSetup
-#     MicrosRosAgentSetup
-#     MicrosRosAgentRun
-# else
-#     RosSubscriber
-# fi
+BuildStm32CubeProject(){
+    
+    cd ..
+    BASE_DIR=/
+    stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null)
+    build_stm="$stm32cubeideExec --launcher.suppressErrors -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data "./" -build drone_eval_plat_RTOS/Debug"
+    $build_stm
+    cd $folder_name
+}
+
 
 
 
