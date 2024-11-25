@@ -17,7 +17,6 @@
 #include <rmw_microxrcedds_c/config.h>
 #include <rmw_microros/rmw_microros.h>
 #include <rosidl_runtime_c/string.h>
-
 #include <time.h>
 
 #include <sensor_msgs/msg/imu.h>             // for the encoder msg

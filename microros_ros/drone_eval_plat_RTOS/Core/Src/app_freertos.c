@@ -458,7 +458,7 @@ void writeSetpointFunc(void *argument)
   for(;;)
   {
     // wait for writeSetpointFunc task flag to be different from 0
-    uiThreadFlagsReturn = osThreadFlagsWait(0x1, 0x11, 1000);
+    uiThreadFlagsReturn = osThreadFlagsWait(0b11, osFlagsWaitAny, 1000);
     // if return is 0x1, read data from joystick
     // if return is 0x10, read data from host
     // else we loop and wait for the flag to be set
@@ -472,8 +472,9 @@ void writeSetpointFunc(void *argument)
       osThreadFlagsSet(convertSetpointHandle, 0x1);
       
     }
-    else if (uiThreadFlagsReturn == 0x10){
+    else if (uiThreadFlagsReturn == 0b10){
       // read data from host
+
       xSetpointData.iDataFromJoystick = 0;
       xSetpointData.fYaw = xHostData.fYaw;
       xSetpointData.fRoll = xHostData.fRoll;
@@ -481,6 +482,7 @@ void writeSetpointFunc(void *argument)
       printf("setpoint upd ros\r\n");
       osThreadFlagsSet(convertSetpointHandle, 0x1);
     }
+
     osDelay(4);
   }
   /* USER CODE END writeSetpointFunc */
@@ -498,31 +500,17 @@ void readFromHostFunc(void *argument)
   /* USER CODE BEGIN readFromHostFunc */
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
 	xSetpoint angles;
-
-	int i=0;
   /* Infinite loop */
   for(;;)
   {
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
 	osEventFlagsWait(hostImuEventHandle, 0x01, osFlagsWaitAll, osWaitForever);
-
-	imu_msg.orientation.x;
-	imu_msg.orientation.y;
-	imu_msg.orientation.z;
-	imu_msg.orientation.w;
-
-
-	//angles = xCalculateAnglesFromLinearAngularAcceleration()
-
-	//vSetActuatorMsg(a_velocity);
-//	xHostData.fYaw = angles.x;
-//	xHostData.fRoll = angles.z;
-//	xHostData.fPitch = angles.y;
+	angles = xConvertQuaternionToAngle(imu_msg.orientation);
 	xHostData.fYaw = angles.fYaw;
 	xHostData.fRoll = angles.fRoll;
 	xHostData.fPitch = angles.fPitch;
 	xHostData.iDataFromJoystick = 0x10;
-	osThreadFlagsSet(writeSetpointHandle, 0x10);
+	osThreadFlagsSet(writeSetpointHandle, 0b10);
 	osDelay(DEFAULT_OSDELAY_LOOP);
   }
   /* USER CODE END readFromHostFunc */
