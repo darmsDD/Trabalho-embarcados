@@ -9,4 +9,3 @@
 ../Core/Src/my_microROS_functions.c:402:11:i32CreateSubscriber	3
 ../Core/Src/my_microROS_functions.c:440:11:i32CreateExecutor	4
 ../Core/Src/my_microROS_functions.c:476:6:vFastBlinkOnError	2
-../Core/Src/my_microROS_functions.c:484:11:xConvertQuaternionToAngle	1

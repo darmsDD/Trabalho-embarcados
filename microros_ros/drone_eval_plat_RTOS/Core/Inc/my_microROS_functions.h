@@ -17,6 +17,7 @@
 #include <rmw_microxrcedds_c/config.h>
 #include <rmw_microros/rmw_microros.h>
 #include <rosidl_runtime_c/string.h>
+
 #include <time.h>
 
 #include <sensor_msgs/msg/imu.h>             // for the encoder msg
@@ -26,17 +27,8 @@
 
 #include "main.h"
 #include "cmsis_os.h"
-#include "math.h"
 
 //extern osThreadId_t readFromHostHandle;
-
-typedef struct {
-  float fYaw;
-  float fRoll;
-  float fPitch;
-  int iDataFromJoystick;
-} xSetpoint;
-
 
 extern osEventFlagsId_t hostImuEventHandle;
 extern UART_HandleTypeDef hlpuart1;
@@ -88,6 +80,6 @@ void * microros_allocate(size_t size, void * state);
 void microros_deallocate(void * pointer, void * state);
 void * microros_reallocate(void * pointer, size_t size, void * state);
 void * microros_zero_allocate(size_t number_of_elements, size_t size_of_element, void * state);
-xSetpoint xConvertQuaternionToAngle(geometry_msgs__msg__Quaternion);
+
 
 #endif /* INC_MY_MICROROS_FUNCTIONS_H_ */

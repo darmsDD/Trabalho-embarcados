@@ -1,0 +1,16 @@
+../Core/Src/app_freertos2.c:238:6:MX_FREERTOS_Init	1
+../Core/Src/app_freertos2.c:331:6:defaultTaskFunc	1
+../Core/Src/app_freertos2.c:353:6:BT_uart_func	4
+../Core/Src/app_freertos2.c:390:6:printGateKeeperFunc	3
+../Core/Src/app_freertos2.c:416:6:writeSetpointFunc	3
+../Core/Src/app_freertos2.c:458:6:readFromHostFunc	1
+../Core/Src/app_freertos2.c:488:6:readFromIMUFunc	2
+../Core/Src/app_freertos2.c:514:6:updateControlFunc	2
+../Core/Src/app_freertos2.c:584:6:convertSetpointToStepsFunc	2
+../Core/Src/app_freertos2.c:626:6:sendToHostFunc	2
+../Core/Src/app_freertos2.c:651:6:moveYawMotorFunc	2
+../Core/Src/app_freertos2.c:674:6:moveRollMotorFunc	2
+../Core/Src/app_freertos2.c:704:6:HAL_UART_RxCpltCallback	3
+../Core/Src/app_freertos2.c:733:6:step	2
+../Core/Src/app_freertos2.c:755:6:microDelay	2
+../Core/Src/app_freertos2.c:780:5:_write	1

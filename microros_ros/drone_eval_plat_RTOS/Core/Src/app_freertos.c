@@ -48,12 +48,12 @@ typedef struct {
   char pMessageBuffer[MAX_MESSAGE_LEN];
 } xPrintfMessage;
 
-//typedef struct {
-//  float fYaw;
-//  float fRoll;
-//  float fPitch;
-//  int iDataFromJoystick;
-//} xSetpoint;
+typedef struct {
+  float fYaw;
+  float fRoll;
+  float fPitch;
+  int iDataFromJoystick;
+} xSetpoint;
 
 typedef struct {
   float fYaw;
@@ -480,7 +480,7 @@ void writeSetpointFunc(void *argument)
       xSetpointData.fRoll = xHostData.fRoll;
       xSetpointData.fPitch = xHostData.fPitch;      
       printf("setpoint upd ros\r\n");
-      osThreadFlagsSet(convertSetpointHandle, 0x1);
+      //osThreadFlagsSet(convertSetpointHandle, 0x1);
     }
 
     osDelay(4);
@@ -499,19 +499,25 @@ void readFromHostFunc(void *argument)
 {
   /* USER CODE BEGIN readFromHostFunc */
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
-	xSetpoint angles;
+	xSetpoint angles = {0,0,0,0};
+	int i=0;
   /* Infinite loop */
   for(;;)
   {
     // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
 	osEventFlagsWait(hostImuEventHandle, 0x01, osFlagsWaitAll, osWaitForever);
-	angles = xConvertQuaternionToAngle(imu_msg.orientation);
 	xHostData.fYaw = angles.fYaw;
 	xHostData.fRoll = angles.fRoll;
 	xHostData.fPitch = angles.fPitch;
 	xHostData.iDataFromJoystick = 0x10;
-	osThreadFlagsSet(writeSetpointHandle, 0b10);
+	HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
+	float a_velocity[] = {0+i,10+i,100+i,500+i};
+	vSetActuatorMsg(a_velocity);
+	//vSendActuatorMsg();
+	//osThreadFlagsSet(writeSetpointHandle,0b10);
 	osDelay(DEFAULT_OSDELAY_LOOP);
+	i++;
+	i%=100;
   }
   /* USER CODE END readFromHostFunc */
 }
@@ -565,8 +571,7 @@ void updateControlFunc(void *argument)
     {-1, -1, 1},
     {-1, 1, -1}
   };
-  float a_velocity[] = {500,500,500,500};
-  vSetActuatorMsg(a_velocity);
+
   /* Infinite loop */
   for(;;)
   {
@@ -596,6 +601,17 @@ void updateControlFunc(void *argument)
       xIMUDataPrevious = xIMUDataIncoming;
       (void) xIMUDataPrevious; // just use to avoid warning, but would be necessary at PID
     }
+
+    //    if(0x01 == osThreadFlagsWait(0x01, osFlagsWaitAny, 1000)){
+//    	static int i = 0;
+//    	fMotorSpeeds[0] = i;
+//    	fMotorSpeeds[1] = i+10;
+//    	fMotorSpeeds[2] = i+100;
+//    	fMotorSpeeds[3] = i+500;
+//    	osThreadFlagsSet(sendToHostHandle, 0x1);
+//    	i++;
+//    	i%=100;
+//    }
 
     osDelay(DEFAULT_OSDELAY_LOOP);
   }
@@ -683,6 +699,8 @@ void sendToHostFunc(void *argument)
     // if thread flag is set to 1, send data to host
     if (osThreadFlagsWait(0x1, 0x11, 1000) == 0x1){
       // IVAN CODE HERE <--------------------------------------------------------------------------------------------------------
+      vSetActuatorMsg(fMotorSpeeds);
+    	vSendActuatorMsg();
     }
     osDelay(DEFAULT_OSDELAY_LOOP);
   }

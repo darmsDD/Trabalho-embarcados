@@ -141,12 +141,7 @@ void vFirstSetActuatorMsg(float *fpVelocity){
 
 *************************************************************************/
 void vSendActuatorMsg(){
-	static int i =0;
-	float a_velocity[] = {i,i+10,i+100,i + 500};
-	vSetActuatorMsg(a_velocity);
 	i32PubMessageState = rcl_publish(&velocity_pub, &velocity_msg, NULL);
-	HAL_GPIO_TogglePin(LD2_GPIO_Port , LD2_Pin);
-	i%=100;
 }
 
 /* *********************************************************************
@@ -484,67 +479,3 @@ void vFastBlinkOnError(){
 		osDelay(100);
 	}
 }
-
-
-
-void checkIfToSmall(double *dpNumber){
-	if(*dpNumber< 1e-3){
-		*dpNumber=0;
-	}
-}
-
-xSetpoint xConvertQuaternionToAngle(geometry_msgs__msg__Quaternion xImuQuaternionAngles){
-	xSetpoint xEulerAngles;
-	//checkIfToSmall(&xImuQuaternionAngles.x);
-	//checkIfToSmall(&xImuQuaternionAngles.y);
-	//checkIfToSmall(&xImuQuaternionAngles.z);
-	xEulerAngles.fPitch = 0 +1;
-	xEulerAngles.fRoll = 0 +2;
-	xEulerAngles.fYaw = 0 +3;
-//    // Roll (x-axis rotation)
-//    double sinr_cosp = 2 * (xImuQuaternionAngles.w * xImuQuaternionAngles.x + xImuQuaternionAngles.y * xImuQuaternionAngles.z);
-//    double cosr_cosp = 1 - 2 * (xImuQuaternionAngles.x * xImuQuaternionAngles.x + xImuQuaternionAngles.y * xImuQuaternionAngles.y);
-//    checkIfToSmall(&sinr_cosp);
-//    checkIfToSmall(&cosr_cosp);
-//    xEulerAngles.fRoll = atan2(sinr_cosp, cosr_cosp);
-//
-//    // Pitch (y-axis rotation)
-//    double sinp = 2 * (xImuQuaternionAngles.w * xImuQuaternionAngles.y - xImuQuaternionAngles.z * xImuQuaternionAngles.x);
-//    if (fabs(sinp) >= 1)
-//        xEulerAngles.fPitch = copysign(M_PI / 2, sinp); // Use 90 degrees if out of range
-//    else
-//        xEulerAngles.fPitch = asin(sinp);
-//
-//    // Yaw (z-axis rotation)
-//    double siny_cosp = 2 * (xImuQuaternionAngles.w * xImuQuaternionAngles.z + xImuQuaternionAngles.x * xImuQuaternionAngles.y);
-//    double cosy_cosp = 1 - 2 * (xImuQuaternionAngles.y * xImuQuaternionAngles.y + xImuQuaternionAngles.z * xImuQuaternionAngles.z);
-//    checkIfToSmall(&siny_cosp);
-//	checkIfToSmall(&cosy_cosp);
-//    xEulerAngles.fYaw = atan2(siny_cosp, cosy_cosp);
-
-//	https://math.stackexchange.com/questions/2975109/how-to-convert-euler-angles-to-quaternions-and-get-the-same-euler-angles-back-fr
-//	double Θ = acos(xImuQuaternionAngles.w)*2;
-//	//Then, get ax,ay,az by:
-//	double dCalculate = sin(acos(Θ));
-//	checkIfToSmall(&dCalculate);
-//	if (dCalculate == 0 ){
-//		xEulerAngles.fPitch=0;
-//		xEulerAngles.fRoll=0;
-//		xEulerAngles.fYaw=0;
-//	} else{
-//		xEulerAngles.fRoll = xImuQuaternionAngles.z / dCalculate;
-//		xEulerAngles.fPitch = xImuQuaternionAngles.y / dCalculate;
-//		xEulerAngles.fYaw = xImuQuaternionAngles.x / dCalculate;
-//	}
-//	var Θ = Math.Acos(W)*2;
-	return xEulerAngles;
-}
-
-//typedef struct {
-//  float fYaw;
-//  float fRoll;
-//  float fPitch;
-//  int iDataFromJoystick;
-//} xSetpoint;
-
-
