@@ -80,7 +80,8 @@ StartGazebo(){
 
 SetupStm32CubeIde(){
     BASE_DIR=/
-    stm32cubeideExec=$(sudo find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null)
+    purple_word "Procurando o executável do STM32CubeIde."
+    stm32cubeideExec=$(find $BASE_DIR -ipath *st/stm32cubeide*/stm32cubeide 2>/dev/null)
 }
 
 StartStm32CubeIde(){
